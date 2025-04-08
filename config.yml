@@ -12,6 +12,10 @@ model_list:
     litellm_params:
       model: groq/qwen-2.5-coder-32b
       api_key: "os.environ/GROQ_API_KEY"
+  - model_name: groq-qwen-2.5-32b
+    litellm_params:
+      model: groq/qwen-2.5-32b
+      api_key: "os.environ/GROQ_API_KEY"
   - model_name: groq-qwen-qwq-32b
     litellm_params:
       model: groq/qwen-qwq-32b
@@ -32,9 +36,9 @@ model_list:
     litellm_params:
       model: groq/llama-3.1-8b-instant
       api_key: "os.environ/GROQ_API_KEY"
-  - model_name: groq-llama-guard-3-8b
+  - model_name: groq-llama-4-scout
     litellm_params:
-      model: groq/llama-guard-3-8b
+      model: groq/meta-llama/llama-4-scout-17b-16e-instruct
       api_key: "os.environ/GROQ_API_KEY"
 
   # gemini
