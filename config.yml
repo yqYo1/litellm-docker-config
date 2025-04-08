@@ -1,0 +1,52 @@
+model_list:
+  # groq
+  - model_name: groq-deepseek-r1-distill-llama-70b
+    litellm_params:
+      model: groq/deepseek-r1-distill-llama-70b
+      api_key: "os.environ/GROQ_API_KEY"
+  - model_name: groq-deepseek-r1-distill-qwen-32b
+    litellm_params:
+      model: groq/deepseek-r1-distill-qwen-32b
+      api_key: "os.environ/GROQ_API_KEY"
+  - model_name: groq-qwen-2.5-coder-32b
+    litellm_params:
+      model: groq/qwen-2.5-coder-32b
+      api_key: "os.environ/GROQ_API_KEY"
+  - model_name: groq-qwen-qwq-32b
+    litellm_params:
+      model: groq/qwen-qwq-32b
+      api_key: "os.environ/GROQ_API_KEY"
+  - model_name: groq-gemma2-9b-it
+    litellm_params:
+      model: groq/gemma2-9b-it
+      api_key: "os.environ/GROQ_API_KEY"
+  - model_name: groq-llama-3.3-70b-specdec
+    litellm_params:
+      model: groq/llama-3.3-70b-specdec
+      api_key: "os.environ/GROQ_API_KEY"
+  - model_name: groq-llama-3.3-70b-versatile
+    litellm_params:
+      model: groq/llama-3.3-70b-versatile
+      api_key: "os.environ/GROQ_API_KEY"
+  - model_name: groq-llama-3.1-8b-instant
+    litellm_params:
+      model: groq/llama-3.1-8b-instant
+      api_key: "os.environ/GROQ_API_KEY"
+  - model_name: groq-llama-guard-3-8b
+    litellm_params:
+      model: groq/llama-guard-3-8b
+      api_key: "os.environ/GROQ_API_KEY"
+
+  # gemini
+  - model_name: gemini-2.0-flash
+    litellm_params:
+      model: gemini/gemini-2.0-flash
+      api_key: "os.environ/GEMINI_API_KEY"
+  - model_name: gemini-2.0-flash-lite
+    litellm_params:
+      model: gemini/gemini-2.0-flash-lite
+      api_key: "os.environ/GEMINI_API_KEY"
+  - model_name: gemini-2.0-flash-thinking-exp
+    litellm_params:
+      model: gemini/gemini-2.0-flash-thinking-exp
+      api_key: "os.environ/GEMINI_API_KEY"
