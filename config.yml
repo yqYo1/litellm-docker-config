@@ -42,7 +42,7 @@ model_list:
       api_key: "os.environ/GROQ_API_KEY"
   - model_name: groq-llama-4-maverick
     litellm_params:
-      model: meta-llama/llama-4-maverick-17b-128e-instruct
+      model: groq/meta-llama/llama-4-maverick-17b-128e-instruct
       api_key: "os.environ/GROQ_API_KEY"
 
   # gemini
