@@ -4,18 +4,6 @@ model_list:
     litellm_params:
       model: groq/deepseek-r1-distill-llama-70b
       api_key: "os.environ/GROQ_API_KEY"
-  - model_name: groq-deepseek-r1-distill-qwen-32b
-    litellm_params:
-      model: groq/deepseek-r1-distill-qwen-32b
-      api_key: "os.environ/GROQ_API_KEY"
-  - model_name: groq-qwen-2.5-coder-32b
-    litellm_params:
-      model: groq/qwen-2.5-coder-32b
-      api_key: "os.environ/GROQ_API_KEY"
-  - model_name: groq-qwen-2.5-32b
-    litellm_params:
-      model: groq/qwen-2.5-32b
-      api_key: "os.environ/GROQ_API_KEY"
   - model_name: groq-qwen-qwq-32b
     litellm_params:
       model: groq/qwen-qwq-32b
@@ -23,10 +11,6 @@ model_list:
   - model_name: groq-gemma2-9b-it
     litellm_params:
       model: groq/gemma2-9b-it
-      api_key: "os.environ/GROQ_API_KEY"
-  - model_name: groq-llama-3.3-70b-specdec
-    litellm_params:
-      model: groq/llama-3.3-70b-specdec
       api_key: "os.environ/GROQ_API_KEY"
   - model_name: groq-llama-3.3-70b-versatile
     litellm_params:
