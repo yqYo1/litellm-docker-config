@@ -4,3 +4,4 @@
 !/.gitignore
 !/compose.yml
 !/config.yml
+!/show-gemini-models.sh
